@@ -294,6 +294,6 @@ defmodule Coxir.Struct.User do
 
     (user >>> 22)
     |> Kernel.+(1_420_070_400_000)
-    |> DateTime.from_unix!(:milliseconds)
+    |> DateTime.from_unix!(:millisecond)
   end
 end
